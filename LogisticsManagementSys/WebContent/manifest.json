@@ -1,0 +1,101 @@
+{
+	"_version": "1.21.0",
+	"sap.app": {
+		"id": "logisticsmanagementsystem",
+		"type": "application",
+		"i18n": {
+			"bundleUrl": "i18n/i18n.properties",
+			"supportedLocales": [
+				""
+			],
+			"fallbackLocale": ""
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"dataSources": {
+			"ZU_UPHR_SRV": {
+				"uri": "/sap/opu/odata/sap/ZU_UPHR_MAIN_SRV",
+				"type": "OData",
+				"settings": {
+					"useBatch": false,
+					"odataVersion": "2.0"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "logisticsmanagementsystem.view.Login",
+			"type": "XML",
+			"id": "Login"
+		},
+		"dependencies": {
+			"minUI5Version": "1.93",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {},
+				"sap.f": {}
+			}
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "logisticsmanagementsystem.i18n.i18n",
+					"supportedLocales": [
+						""
+					],
+					"fallbackLocale": ""
+				}
+			},
+	  "plan": {
+		"type": "sap.ui.model.json.JSONModel",
+		"uri": "Plan.json"
+	  }
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "logisticsmanagementsystem.view",
+				"controlAggregation": "pages",
+				"controlId": "app",
+				"targetAggegation": "pages"
+			},
+			"routes": [
+				{
+					"pattern": "",
+					"name": "Login",
+					"viewName": "Login",
+					"targetAggegation": "pages"
+				},
+					{
+					"pattern": "Loader",
+					"name": "Loader",
+					"viewName": "Loader",
+					"targetAggegation": "pages"
+				}
+			]
+		}
+	}
+}

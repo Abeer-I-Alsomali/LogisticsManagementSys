@@ -1,0 +1,738 @@
+{
+    "results": [
+        {
+            "__metadata": {
+                "id": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanSet('9000000001')",
+                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanSet('9000000001')",
+                "type": "ZU_UPHR_MAIN_SRV.LoadingPlan"
+            },
+            "ZuphrLoadtype": "",
+            "Modified": false,
+            "ZuphrActtype": "",
+            "ZuphrStatus": "RELE",
+            "ZuphrVesselName": "",
+            "ZuphrCaptain": "",
+            "ZuphrStation": "12",
+            "ZuphrLpid": "9000000001",
+            "Mjahr": "2021",
+            "ZuphrLpname": "ADC-12",
+            "ZuphrProfid": "DRW",
+            "ZuphrRqtype": "NAV",
+            "ZuphrLpdate": "\/Date(1631750400000)\/",
+            "ZuphrLptime": "PT13H56M42S",
+            "ZuphrLpuser": "MA041996",
+            "ZuphrLifnr": "",
+            "ZuphrVessel": "",
+            "ZuphrReleased": false,
+            "ZuphrDeleted": false,
+            "ZuphrFpDate": "\/Date(1631750400000)\/",
+            "ZuphrFpTime": "PT15H48M24S",
+            "ZuphrFpName": "MA041996",
+            "PlanToItems": {
+                "results": [
+                    {
+                        "__metadata": {
+                            "id": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000001',ZuphrMblpo='0001')",
+                            "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000001',ZuphrMblpo='0001')",
+                            "type": "ZU_UPHR_MAIN_SRV.LoadingPlanItem"
+                        },
+                        "ZuphrActquan": "0.000",
+                        "Log": "",
+                        "ZuphrLoada": "[{\"mandt\":\"022\",\"zuphrLpid\":\"9000000001\",\"zuphrMjahr\":2021,\"zuphrMblpo\":1,\"zuphrLoadid\":1,\"zuphrActtype\":\"CAPC\",\"zuphrReady\":\"0\",\"zuphrAsinQuan\":8.000,\"zuphrFpDate\":\"2021-09-16\",\"zuphrFpTime\":\"15:48:24\",\"zuphrFpName\":\"MA041996\",\"zuphrStatus\":\"RELET\"}]",
+                        "ZuphrMovem": "",
+                        "ZuphrActtype": "",
+                        "ZuphrContents": "",
+                        "ZuphrHeight": "0.000",
+                        "ZuphrLength": "0.000",
+                        "ZuphrLpid": "9000000001",
+                        "ZuphrObjecte": false,
+                        "ZuphrSchar": "",
+                        "ZuphrFrom": "",
+                        "ZuphrSchtask": "",
+                        "ZuphrSeq": "0000",
+                        "ZuphrWidth": "0.000",
+                        "ZuphrShipper": "",
+                        "ZuphrTo": "",
+                        "ZuphrVolmeins": "",
+                        "ZuphrMjahr": "2021",
+                        "ZuphrMblpo": "0001",
+                        "ZuphrStgid": "",
+                        "ZuphrMatnr": "",
+                        "ZuphrReqid": "1000000287",
+                        "ZuphrReqitm": "0001",
+                        "ZuphrShortxt": "",
+                        "ZuphrDescrip": "Replace Bouy",
+                        "ZuphrQuan": "8.000",
+                        "Meins": "EA",
+                        "ZuphrOffshore": "ADC-10",
+                        "ZuphrAreacode": "",
+                        "ZuphrStatus": "RELE",
+                        "ZuphrClass": "",
+                        "ZuphrDeleted": false,
+                        "ZuphrStatdt": null,
+                        "ZuphrCompflg": "",
+                        "ZuphrCompdat": null,
+                        "ZuphrAction": "00",
+                        "ZuphrResponse": "",
+                        "ZuphrAutoact": "00",
+                        "ZuphrActposgrp": "",
+                        "ZuphrActrole": "",
+                        "ZuphrSent": "",
+                        "ZuphrActuname": "",
+                        "ZuphrActdate": null,
+                        "ZuphrActtime": "PT00H00M00S",
+                        "ZuphrWellnm": "",
+                        "ZuphrEquipnumber": "",
+                        "ZuphrCnumber": "",
+                        "ZuphrTicketno": "",
+                        "ZuphrMfrpn": "",
+                        "ZuphrBitType": "",
+                        "ZuphrBitstatus": "",
+                        "ZuphrSrlno": "",
+                        "ZuphrGl": "",
+                        "ZuphrCostcen": "",
+                        "ZuphrMattype": "",
+                        "ZuphrFpDate": "\/Date(1631750400000)\/",
+                        "ZuphrFpTime": "PT15H48M24S",
+                        "ZuphrFpName": "MA041996",
+                        "LoadingPlanLoadActionSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000001',ZuphrMblpo='0001')/LoadingPlanLoadActionSet"
+                            }
+                        },
+                        "LoadingPlanMovemSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000001',ZuphrMblpo='0001')/LoadingPlanMovemSet"
+                            }
+                        },
+                        "LoadingPlanCharSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000001',ZuphrMblpo='0001')/LoadingPlanCharSet"
+                            }
+                        },
+                        "LoadingPlanCheckTSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000001',ZuphrMblpo='0001')/LoadingPlanCheckTSet"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "__metadata": {
+                "id": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanSet('9000000004')",
+                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanSet('9000000004')",
+                "type": "ZU_UPHR_MAIN_SRV.LoadingPlan"
+            },
+            "ZuphrLoadtype": "",
+            "Modified": false,
+            "ZuphrActtype": "",
+            "ZuphrStatus": "RELE",
+            "ZuphrVesselName": "",
+            "ZuphrCaptain": "",
+            "ZuphrStation": "22",
+            "ZuphrLpid": "9000000004",
+            "Mjahr": "2021",
+            "ZuphrLpname": "ADC-15",
+            "ZuphrProfid": "DRW",
+            "ZuphrRqtype": "NAV",
+            "ZuphrLpdate": "\/Date(1632182400000)\/",
+            "ZuphrLptime": "PT12H48M24S",
+            "ZuphrLpuser": "MA041996",
+            "ZuphrLifnr": "",
+            "ZuphrVessel": "",
+            "ZuphrReleased": false,
+            "ZuphrDeleted": false,
+            "ZuphrFpDate": "\/Date(1632182400000)\/",
+            "ZuphrFpTime": "PT14H28M44S",
+            "ZuphrFpName": "MA041996",
+            "PlanToItems": {
+                "results": [
+                    {
+                        "__metadata": {
+                            "id": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000004',ZuphrMblpo='0001')",
+                            "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000004',ZuphrMblpo='0001')",
+                            "type": "ZU_UPHR_MAIN_SRV.LoadingPlanItem"
+                        },
+                        "ZuphrActquan": "0.000",
+                        "Log": "",
+                        "ZuphrLoada": "[{\"mandt\":\"022\",\"zuphrLpid\":\"9000000004\",\"zuphrMjahr\":2021,\"zuphrMblpo\":1,\"zuphrLoadid\":1,\"zuphrActtype\":\"CAPC\",\"zuphrReady\":\"0\",\"zuphrAsinQuan\":10.000,\"zuphrFpDate\":\"2021-09-21\",\"zuphrFpTime\":\"14:28:44\",\"zuphrFpName\":\"MA041996\",\"zuphrStatus\":\"RELE\"}]",
+                        "ZuphrMovem": "",
+                        "ZuphrActtype": "",
+                        "ZuphrContents": "",
+                        "ZuphrHeight": "0.000",
+                        "ZuphrLength": "0.000",
+                        "ZuphrLpid": "9000000004",
+                        "ZuphrObjecte": false,
+                        "ZuphrSchar": "",
+                        "ZuphrFrom": "",
+                        "ZuphrSchtask": "",
+                        "ZuphrSeq": "0000",
+                        "ZuphrWidth": "0.000",
+                        "ZuphrShipper": "",
+                        "ZuphrTo": "",
+                        "ZuphrVolmeins": "",
+                        "ZuphrMjahr": "2021",
+                        "ZuphrMblpo": "0001",
+                        "ZuphrStgid": "",
+                        "ZuphrMatnr": "",
+                        "ZuphrReqid": "1000000288",
+                        "ZuphrReqitm": "0001",
+                        "ZuphrShortxt": "",
+                        "ZuphrDescrip": "Renew moorings as required",
+                        "ZuphrQuan": "10.000",
+                        "Meins": "EA",
+                        "ZuphrOffshore": "ADC-10",
+                        "ZuphrAreacode": "",
+                        "ZuphrStatus": "RELE",
+                        "ZuphrClass": "",
+                        "ZuphrDeleted": false,
+                        "ZuphrStatdt": null,
+                        "ZuphrCompflg": "",
+                        "ZuphrCompdat": null,
+                        "ZuphrAction": "00",
+                        "ZuphrResponse": "",
+                        "ZuphrAutoact": "00",
+                        "ZuphrActposgrp": "",
+                        "ZuphrActrole": "",
+                        "ZuphrSent": "",
+                        "ZuphrActuname": "",
+                        "ZuphrActdate": null,
+                        "ZuphrActtime": "PT00H00M00S",
+                        "ZuphrWellnm": "",
+                        "ZuphrEquipnumber": "",
+                        "ZuphrCnumber": "",
+                        "ZuphrTicketno": "",
+                        "ZuphrMfrpn": "",
+                        "ZuphrBitType": "",
+                        "ZuphrBitstatus": "",
+                        "ZuphrSrlno": "",
+                        "ZuphrGl": "",
+                        "ZuphrCostcen": "",
+                        "ZuphrMattype": "",
+                        "ZuphrFpDate": "\/Date(1632182400000)\/",
+                        "ZuphrFpTime": "PT14H28M44S",
+                        "ZuphrFpName": "MA041996",
+                        "LoadingPlanLoadActionSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000004',ZuphrMblpo='0001')/LoadingPlanLoadActionSet"
+                            }
+                        },
+                        "LoadingPlanMovemSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000004',ZuphrMblpo='0001')/LoadingPlanMovemSet"
+                            }
+                        },
+                        "LoadingPlanCharSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000004',ZuphrMblpo='0001')/LoadingPlanCharSet"
+                            }
+                        },
+                        "LoadingPlanCheckTSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000004',ZuphrMblpo='0001')/LoadingPlanCheckTSet"
+                            }
+                        }
+                    },
+                    {
+                        "__metadata": {
+                            "id": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000004',ZuphrMblpo='0002')",
+                            "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000004',ZuphrMblpo='0002')",
+                            "type": "ZU_UPHR_MAIN_SRV.LoadingPlanItem"
+                        },
+                        "ZuphrActquan": "0.000",
+                        "Log": "",
+                        "ZuphrLoada": "[{\"mandt\":\"022\",\"zuphrLpid\":\"9000000004\",\"zuphrMjahr\":2021,\"zuphrMblpo\":2,\"zuphrLoadid\":2,\"zuphrActtype\":\"CAPC\",\"zuphrReady\":\"1\",\"zuphrAsinQuan\":10.000,\"zuphrFpDate\":\"2021-09-21\",\"zuphrFpTime\":\"14:28:44\",\"zuphrFpName\":\"MA041996\",\"zuphrStatus\":\"RELE\"}]",
+                        "ZuphrMovem": "",
+                        "ZuphrActtype": "",
+                        "ZuphrContents": "",
+                        "ZuphrHeight": "0.000",
+                        "ZuphrLength": "0.000",
+                        "ZuphrLpid": "9000000004",
+                        "ZuphrObjecte": false,
+                        "ZuphrSchar": "",
+                        "ZuphrFrom": "",
+                        "ZuphrSchtask": "",
+                        "ZuphrSeq": "0000",
+                        "ZuphrWidth": "0.000",
+                        "ZuphrShipper": "",
+                        "ZuphrTo": "",
+                        "ZuphrVolmeins": "",
+                        "ZuphrMjahr": "2021",
+                        "ZuphrMblpo": "0002",
+                        "ZuphrStgid": "",
+                        "ZuphrMatnr": "",
+                        "ZuphrReqid": "1000000288",
+                        "ZuphrReqitm": "0002",
+                        "ZuphrShortxt": "",
+                        "ZuphrDescrip": "Change bridle chain from buoy",
+                        "ZuphrQuan": "10.000",
+                        "Meins": "EA",
+                        "ZuphrOffshore": "ADC-10",
+                        "ZuphrAreacode": "",
+                        "ZuphrStatus": "RELE",
+                        "ZuphrClass": "",
+                        "ZuphrDeleted": false,
+                        "ZuphrStatdt": null,
+                        "ZuphrCompflg": "",
+                        "ZuphrCompdat": null,
+                        "ZuphrAction": "00",
+                        "ZuphrResponse": "",
+                        "ZuphrAutoact": "00",
+                        "ZuphrActposgrp": "",
+                        "ZuphrActrole": "",
+                        "ZuphrSent": "",
+                        "ZuphrActuname": "",
+                        "ZuphrActdate": null,
+                        "ZuphrActtime": "PT00H00M00S",
+                        "ZuphrWellnm": "",
+                        "ZuphrEquipnumber": "",
+                        "ZuphrCnumber": "",
+                        "ZuphrTicketno": "",
+                        "ZuphrMfrpn": "",
+                        "ZuphrBitType": "",
+                        "ZuphrBitstatus": "",
+                        "ZuphrSrlno": "",
+                        "ZuphrGl": "",
+                        "ZuphrCostcen": "",
+                        "ZuphrMattype": "",
+                        "ZuphrFpDate": "\/Date(1632182400000)\/",
+                        "ZuphrFpTime": "PT14H28M44S",
+                        "ZuphrFpName": "MA041996",
+                        "LoadingPlanLoadActionSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000004',ZuphrMblpo='0002')/LoadingPlanLoadActionSet"
+                            }
+                        },
+                        "LoadingPlanMovemSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000004',ZuphrMblpo='0002')/LoadingPlanMovemSet"
+                            }
+                        },
+                        "LoadingPlanCharSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000004',ZuphrMblpo='0002')/LoadingPlanCharSet"
+                            }
+                        },
+                        "LoadingPlanCheckTSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000004',ZuphrMblpo='0002')/LoadingPlanCheckTSet"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "__metadata": {
+                "id": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanSet('9000000005')",
+                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanSet('9000000005')",
+                "type": "ZU_UPHR_MAIN_SRV.LoadingPlan"
+            },
+            "ZuphrLoadtype": "",
+            "Modified": false,
+            "ZuphrActtype": "",
+            "ZuphrStatus": "RELE",
+            "ZuphrVesselName": "",
+            "ZuphrCaptain": "",
+            "ZuphrStation": "11",
+            "ZuphrLpid": "9000000005",
+            "Mjahr": "2021",
+            "ZuphrLpname": "ADC-14",
+            "ZuphrProfid": "DRW",
+            "ZuphrRqtype": "NAV",
+            "ZuphrLpdate": "\/Date(1632614400000)\/",
+            "ZuphrLptime": "PT12H27M39S",
+            "ZuphrLpuser": "MA041996",
+            "ZuphrLifnr": "",
+            "ZuphrVessel": "",
+            "ZuphrReleased": false,
+            "ZuphrDeleted": false,
+            "ZuphrFpDate": "\/Date(1632700800000)\/",
+            "ZuphrFpTime": "PT08H48M02S",
+            "ZuphrFpName": "MA041996",
+            "PlanToItems": {
+                "results": [
+                    {
+                        "__metadata": {
+                            "id": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000005',ZuphrMblpo='0001')",
+                            "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000005',ZuphrMblpo='0001')",
+                            "type": "ZU_UPHR_MAIN_SRV.LoadingPlanItem"
+                        },
+                        "ZuphrActquan": "0.000",
+                        "Log": "",
+                        "ZuphrLoada": "[{\"mandt\":\"022\",\"zuphrLpid\":\"9000000005\",\"zuphrMjahr\":2021,\"zuphrMblpo\":1,\"zuphrLoadid\":1,\"zuphrActtype\":\"CAPC\",\"zuphrReady\":\"1\",\"zuphrAsinQuan\":4.000,\"zuphrFpDate\":\"2021-09-27\",\"zuphrFpTime\":\"08:48:02\",\"zuphrFpName\":\"MA041996\",\"zuphrStatus\":\"RELE\"}]",
+                        "ZuphrMovem": "",
+                        "ZuphrActtype": "",
+                        "ZuphrContents": "",
+                        "ZuphrHeight": "0.000",
+                        "ZuphrLength": "0.000",
+                        "ZuphrLpid": "9000000005",
+                        "ZuphrObjecte": false,
+                        "ZuphrSchar": "",
+                        "ZuphrFrom": "",
+                        "ZuphrSchtask": "",
+                        "ZuphrSeq": "0000",
+                        "ZuphrWidth": "0.000",
+                        "ZuphrShipper": "",
+                        "ZuphrTo": "",
+                        "ZuphrVolmeins": "",
+                        "ZuphrMjahr": "2021",
+                        "ZuphrMblpo": "0001",
+                        "ZuphrStgid": "",
+                        "ZuphrMatnr": "",
+                        "ZuphrReqid": "1000000282",
+                        "ZuphrReqitm": "0001",
+                        "ZuphrShortxt": "",
+                        "ZuphrDescrip": "Change bridle chain from buoy",
+                        "ZuphrQuan": "4.000",
+                        "Meins": "EA",
+                        "ZuphrOffshore": "ADC-10",
+                        "ZuphrAreacode": "",
+                        "ZuphrStatus": "RELE",
+                        "ZuphrClass": "",
+                        "ZuphrDeleted": false,
+                        "ZuphrStatdt": null,
+                        "ZuphrCompflg": "",
+                        "ZuphrCompdat": null,
+                        "ZuphrAction": "00",
+                        "ZuphrResponse": "",
+                        "ZuphrAutoact": "00",
+                        "ZuphrActposgrp": "",
+                        "ZuphrActrole": "",
+                        "ZuphrSent": "",
+                        "ZuphrActuname": "",
+                        "ZuphrActdate": null,
+                        "ZuphrActtime": "PT00H00M00S",
+                        "ZuphrWellnm": "",
+                        "ZuphrEquipnumber": "",
+                        "ZuphrCnumber": "",
+                        "ZuphrTicketno": "",
+                        "ZuphrMfrpn": "",
+                        "ZuphrBitType": "",
+                        "ZuphrBitstatus": "",
+                        "ZuphrSrlno": "",
+                        "ZuphrGl": "",
+                        "ZuphrCostcen": "",
+                        "ZuphrMattype": "",
+                        "ZuphrFpDate": "\/Date(1632700800000)\/",
+                        "ZuphrFpTime": "PT08H48M02S",
+                        "ZuphrFpName": "MA041996",
+                        "LoadingPlanLoadActionSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000005',ZuphrMblpo='0001')/LoadingPlanLoadActionSet"
+                            }
+                        },
+                        "LoadingPlanMovemSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000005',ZuphrMblpo='0001')/LoadingPlanMovemSet"
+                            }
+                        },
+                        "LoadingPlanCharSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000005',ZuphrMblpo='0001')/LoadingPlanCharSet"
+                            }
+                        },
+                        "LoadingPlanCheckTSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000005',ZuphrMblpo='0001')/LoadingPlanCheckTSet"
+                            }
+                        }
+                    },
+                    {
+                        "__metadata": {
+                            "id": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000005',ZuphrMblpo='0002')",
+                            "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000005',ZuphrMblpo='0002')",
+                            "type": "ZU_UPHR_MAIN_SRV.LoadingPlanItem"
+                        },
+                        "ZuphrActquan": "0.000",
+                        "Log": "",
+                        "ZuphrLoada": "[{\"mandt\":\"022\",\"zuphrLpid\":\"9000000005\",\"zuphrMjahr\":2021,\"zuphrMblpo\":2,\"zuphrLoadid\":2,\"zuphrActtype\":\"CAPC\",\"zuphrReady\":\"1\",\"zuphrAsinQuan\":5.000,\"zuphrFpDate\":\"2021-09-27\",\"zuphrFpTime\":\"08:48:02\",\"zuphrFpName\":\"MA041996\",\"zuphrStatus\":\"RELE\"}]",
+                        "ZuphrMovem": "",
+                        "ZuphrActtype": "",
+                        "ZuphrContents": "",
+                        "ZuphrHeight": "0.000",
+                        "ZuphrLength": "0.000",
+                        "ZuphrLpid": "9000000005",
+                        "ZuphrObjecte": false,
+                        "ZuphrSchar": "",
+                        "ZuphrFrom": "",
+                        "ZuphrSchtask": "",
+                        "ZuphrSeq": "0000",
+                        "ZuphrWidth": "0.000",
+                        "ZuphrShipper": "",
+                        "ZuphrTo": "",
+                        "ZuphrVolmeins": "",
+                        "ZuphrMjahr": "2021",
+                        "ZuphrMblpo": "0002",
+                        "ZuphrStgid": "",
+                        "ZuphrMatnr": "",
+                        "ZuphrReqid": "1000000282",
+                        "ZuphrReqitm": "0002",
+                        "ZuphrShortxt": "",
+                        "ZuphrDescrip": "Cut/Replace/Renew moorings as required",
+                        "ZuphrQuan": "5.000",
+                        "Meins": "EA",
+                        "ZuphrOffshore": "ADC-10",
+                        "ZuphrAreacode": "",
+                        "ZuphrStatus": "RELE",
+                        "ZuphrClass": "",
+                        "ZuphrDeleted": false,
+                        "ZuphrStatdt": null,
+                        "ZuphrCompflg": "",
+                        "ZuphrCompdat": null,
+                        "ZuphrAction": "00",
+                        "ZuphrResponse": "",
+                        "ZuphrAutoact": "00",
+                        "ZuphrActposgrp": "",
+                        "ZuphrActrole": "",
+                        "ZuphrSent": "",
+                        "ZuphrActuname": "",
+                        "ZuphrActdate": null,
+                        "ZuphrActtime": "PT00H00M00S",
+                        "ZuphrWellnm": "",
+                        "ZuphrEquipnumber": "",
+                        "ZuphrCnumber": "",
+                        "ZuphrTicketno": "",
+                        "ZuphrMfrpn": "",
+                        "ZuphrBitType": "",
+                        "ZuphrBitstatus": "",
+                        "ZuphrSrlno": "",
+                        "ZuphrGl": "",
+                        "ZuphrCostcen": "",
+                        "ZuphrMattype": "",
+                        "ZuphrFpDate": "\/Date(1632700800000)\/",
+                        "ZuphrFpTime": "PT08H48M02S",
+                        "ZuphrFpName": "MA041996",
+                        "LoadingPlanLoadActionSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000005',ZuphrMblpo='0002')/LoadingPlanLoadActionSet"
+                            }
+                        },
+                        "LoadingPlanMovemSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000005',ZuphrMblpo='0002')/LoadingPlanMovemSet"
+                            }
+                        },
+                        "LoadingPlanCharSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000005',ZuphrMblpo='0002')/LoadingPlanCharSet"
+                            }
+                        },
+                        "LoadingPlanCheckTSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000005',ZuphrMblpo='0002')/LoadingPlanCheckTSet"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "__metadata": {
+                "id": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanSet('9000000012')",
+                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanSet('9000000012')",
+                "type": "ZU_UPHR_MAIN_SRV.LoadingPlan"
+            },
+            "ZuphrLoadtype": "",
+            "Modified": false,
+            "ZuphrActtype": "",
+            "ZuphrStatus": "RELE",
+            "ZuphrVesselName": "",
+            "ZuphrCaptain": "",
+            "ZuphrStation": "ADC-31",
+            "ZuphrLpid": "9000000012",
+            "Mjahr": "2021",
+            "ZuphrLpname": "15",
+            "ZuphrProfid": "DRW",
+            "ZuphrRqtype": "NAV",
+            "ZuphrLpdate": "\/Date(1635120000000)\/",
+            "ZuphrLptime": "PT13H30M50S",
+            "ZuphrLpuser": "MA041996",
+            "ZuphrLifnr": "",
+            "ZuphrVessel": "",
+            "ZuphrReleased": false,
+            "ZuphrDeleted": false,
+            "ZuphrFpDate": "\/Date(1635120000000)\/",
+            "ZuphrFpTime": "PT13H31M37S",
+            "ZuphrFpName": "MA041996",
+            "PlanToItems": {
+                "results": [
+                    {
+                        "__metadata": {
+                            "id": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000012',ZuphrMblpo='0001')",
+                            "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000012',ZuphrMblpo='0001')",
+                            "type": "ZU_UPHR_MAIN_SRV.LoadingPlanItem"
+                        },
+                        "ZuphrActquan": "0.000",
+                        "Log": "",
+                        "ZuphrLoada": "[{\"mandt\":\"022\",\"zuphrLpid\":\"9000000012\",\"zuphrMjahr\":2021,\"zuphrMblpo\":1,\"zuphrLoadid\":1,\"zuphrActtype\":\"CAPC\",\"zuphrReady\":\"1\",\"zuphrAsinQuan\":6.000,\"zuphrFpDate\":\"2021-10-25\",\"zuphrFpTime\":\"13:31:37\",\"zuphrFpName\":\"MA041996\",\"zuphrStatus\":\"RELE\"}]",
+                        "ZuphrMovem": "",
+                        "ZuphrActtype": "",
+                        "ZuphrContents": "",
+                        "ZuphrHeight": "0.000",
+                        "ZuphrLength": "0.000",
+                        "ZuphrLpid": "9000000012",
+                        "ZuphrObjecte": false,
+                        "ZuphrSchar": "",
+                        "ZuphrFrom": "",
+                        "ZuphrSchtask": "",
+                        "ZuphrSeq": "0000",
+                        "ZuphrWidth": "0.000",
+                        "ZuphrShipper": "",
+                        "ZuphrTo": "",
+                        "ZuphrVolmeins": "",
+                        "ZuphrMjahr": "2021",
+                        "ZuphrMblpo": "0001",
+                        "ZuphrStgid": "",
+                        "ZuphrMatnr": "",
+                        "ZuphrReqid": "1000000313",
+                        "ZuphrReqitm": "0003",
+                        "ZuphrShortxt": "",
+                        "ZuphrDescrip": "Buoys clean",
+                        "ZuphrQuan": "6.000",
+                        "Meins": "",
+                        "ZuphrOffshore": "ADC-10",
+                        "ZuphrAreacode": "",
+                        "ZuphrStatus": "RELE",
+                        "ZuphrClass": "",
+                        "ZuphrDeleted": false,
+                        "ZuphrStatdt": null,
+                        "ZuphrCompflg": "",
+                        "ZuphrCompdat": null,
+                        "ZuphrAction": "00",
+                        "ZuphrResponse": "",
+                        "ZuphrAutoact": "00",
+                        "ZuphrActposgrp": "",
+                        "ZuphrActrole": "",
+                        "ZuphrSent": "",
+                        "ZuphrActuname": "",
+                        "ZuphrActdate": null,
+                        "ZuphrActtime": "PT00H00M00S",
+                        "ZuphrWellnm": "",
+                        "ZuphrEquipnumber": "",
+                        "ZuphrCnumber": "",
+                        "ZuphrTicketno": "",
+                        "ZuphrMfrpn": "",
+                        "ZuphrBitType": "",
+                        "ZuphrBitstatus": "",
+                        "ZuphrSrlno": "",
+                        "ZuphrGl": "",
+                        "ZuphrCostcen": "",
+                        "ZuphrMattype": "",
+                        "ZuphrFpDate": "\/Date(1635120000000)\/",
+                        "ZuphrFpTime": "PT13H31M37S",
+                        "ZuphrFpName": "MA041996",
+                        "LoadingPlanLoadActionSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000012',ZuphrMblpo='0001')/LoadingPlanLoadActionSet"
+                            }
+                        },
+                        "LoadingPlanMovemSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000012',ZuphrMblpo='0001')/LoadingPlanMovemSet"
+                            }
+                        },
+                        "LoadingPlanCharSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000012',ZuphrMblpo='0001')/LoadingPlanCharSet"
+                            }
+                        },
+                        "LoadingPlanCheckTSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000012',ZuphrMblpo='0001')/LoadingPlanCheckTSet"
+                            }
+                        }
+                    },
+                    {
+                        "__metadata": {
+                            "id": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000012',ZuphrMblpo='0002')",
+                            "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000012',ZuphrMblpo='0002')",
+                            "type": "ZU_UPHR_MAIN_SRV.LoadingPlanItem"
+                        },
+                        "ZuphrActquan": "0.000",
+                        "Log": "",
+                        "ZuphrLoada": "[{\"mandt\":\"022\",\"zuphrLpid\":\"9000000012\",\"zuphrMjahr\":2021,\"zuphrMblpo\":2,\"zuphrLoadid\":2,\"zuphrActtype\":\"CAPC\",\"zuphrReady\":\"1\",\"zuphrAsinQuan\":10.000,\"zuphrFpDate\":\"2021-10-25\",\"zuphrFpTime\":\"13:31:37\",\"zuphrFpName\":\"MA041996\",\"zuphrStatus\":\"RELE\"}]",
+                        "ZuphrMovem": "",
+                        "ZuphrActtype": "",
+                        "ZuphrContents": "",
+                        "ZuphrHeight": "0.000",
+                        "ZuphrLength": "0.000",
+                        "ZuphrLpid": "9000000012",
+                        "ZuphrObjecte": false,
+                        "ZuphrSchar": "",
+                        "ZuphrFrom": "",
+                        "ZuphrSchtask": "",
+                        "ZuphrSeq": "0000",
+                        "ZuphrWidth": "0.000",
+                        "ZuphrShipper": "",
+                        "ZuphrTo": "",
+                        "ZuphrVolmeins": "",
+                        "ZuphrMjahr": "2021",
+                        "ZuphrMblpo": "0002",
+                        "ZuphrStgid": "",
+                        "ZuphrMatnr": "",
+                        "ZuphrReqid": "1000000313",
+                        "ZuphrReqitm": "0002",
+                        "ZuphrShortxt": "",
+                        "ZuphrDescrip": "JMM-1",
+                        "ZuphrQuan": "10.000",
+                        "Meins": "",
+                        "ZuphrOffshore": "ADC-10",
+                        "ZuphrAreacode": "",
+                        "ZuphrStatus": "RELE",
+                        "ZuphrClass": "",
+                        "ZuphrDeleted": false,
+                        "ZuphrStatdt": null,
+                        "ZuphrCompflg": "",
+                        "ZuphrCompdat": null,
+                        "ZuphrAction": "00",
+                        "ZuphrResponse": "",
+                        "ZuphrAutoact": "00",
+                        "ZuphrActposgrp": "",
+                        "ZuphrActrole": "",
+                        "ZuphrSent": "",
+                        "ZuphrActuname": "",
+                        "ZuphrActdate": null,
+                        "ZuphrActtime": "PT00H00M00S",
+                        "ZuphrWellnm": "",
+                        "ZuphrEquipnumber": "",
+                        "ZuphrCnumber": "",
+                        "ZuphrTicketno": "",
+                        "ZuphrMfrpn": "",
+                        "ZuphrBitType": "",
+                        "ZuphrBitstatus": "",
+                        "ZuphrSrlno": "",
+                        "ZuphrGl": "",
+                        "ZuphrCostcen": "",
+                        "ZuphrMattype": "",
+                        "ZuphrFpDate": "\/Date(1635120000000)\/",
+                        "ZuphrFpTime": "PT13H31M37S",
+                        "ZuphrFpName": "MA041996",
+                        "LoadingPlanLoadActionSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000012',ZuphrMblpo='0002')/LoadingPlanLoadActionSet"
+                            }
+                        },
+                        "LoadingPlanMovemSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000012',ZuphrMblpo='0002')/LoadingPlanMovemSet"
+                            }
+                        },
+                        "LoadingPlanCharSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000012',ZuphrMblpo='0002')/LoadingPlanCharSet"
+                            }
+                        },
+                        "LoadingPlanCheckTSet": {
+                            "__deferred": {
+                                "uri": "https://dvc.aramco.com.sa:1443/sap/opu/odata/SAP/ZU_UPHR_MAIN_SRV/LoadingPlanItemSet(ZuphrLpid='9000000012',ZuphrMblpo='0002')/LoadingPlanCheckTSet"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

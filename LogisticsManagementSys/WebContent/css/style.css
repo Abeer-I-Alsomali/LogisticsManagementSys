@@ -1,0 +1,16 @@
+
+
+.card{
+	border-radius: 10px;
+}
+
+.show_bg_2 {
+background: rgb(255,255,255);
+background: linear-gradient(148deg, rgba(255,255,255,1) 41%, rgba(148,148,148,0.059742647058823484) 100%);
+}
+
+.sapMBarPH{
+background: rgb(0,51,160);
+background: linear-gradient(98deg, rgba(0,51,160,0.33985469187675066) 0%, rgba(255,255,255,0.4070815826330533) 51%, rgba(0,132,61,0.4266894257703081) 100%);
+}
+

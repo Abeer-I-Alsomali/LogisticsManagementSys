@@ -1,0 +1,56 @@
+<mvc:View
+	controllerName="logisticsmanagementsystem.controller.Loader"
+	xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+
+	<SplitApp initialMaster="master" initialDetail="detail">
+		<masterPages>
+			<Page id="master" title="Plans" showNavButton="true"
+				navButtonPress="onNavButton">
+
+				<List id="invoiceList" class="sapUiResponsiveMargin"
+					width="auto" items="{plan>/Plan}">
+	
+					<items>
+
+						<CustomListItem itemPress="onPlanSelects">
+							<HBox>
+								<VBox
+									class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom">
+									<Label text="{plan>ZuphrLpid}" />
+									<Button icon="sap-icon://hello-world"
+										 />
+								</VBox>
+							</HBox>
+
+						</CustomListItem>
+
+					</items>
+				</List>
+
+
+			</Page>
+		</masterPages>
+
+		<detailPages>
+			<Page id="detail" title="detail">
+			<List id="detailList" title="Detail" items="{LPConfitems>/}">
+			<items>
+			<CustomListItem>
+										<HBox>
+								<VBox
+									class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom">
+									<Label text="{LPConfitems>ZuphrDescrip}" />
+									<Button icon="sap-icon://hello-world"
+										press="onPlanSelects" />
+								</VBox>
+							</HBox>
+			</CustomListItem>
+			</items>
+			
+			</List>
+				
+			</Page>
+		</detailPages>
+	</SplitApp>
+
+</mvc:View>
