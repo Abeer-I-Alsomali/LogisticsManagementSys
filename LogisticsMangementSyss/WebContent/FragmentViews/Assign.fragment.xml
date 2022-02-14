@@ -1,0 +1,34 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core">
+	<Dialog title="Location Details">
+		<l:Grid defaultSpan="L12 M12 S12" width="auto" id="idGrid">
+			<l:content>
+				<f:SimpleForm id="SimpleFormDisplay354" minWidth="1024"
+					maxContainerCols="2" editable="true" layout="ResponsiveGridLayout"
+					labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4"
+					columnsL="2" columnsM="2">
+					<f:content>
+					<Label text="Driver"/>
+						<ComboBox id="idTipsIndicate1" value="{dispRecon>TripsNotTaken}">
+							<core:Item key="Yes" text="Shaik" />
+							<core:Item key="No" text="Samdani" />
+							<core:Item key="No" text="Shareef" />
+					    
+						</ComboBox>
+						  <Label text="Vehicle"/>
+							<ComboBox id="idTipsIndicate2" value="{dispRecon>TripsNotTaken}">
+							<core:Item key="Yes" text="Two wheeler" />
+							<core:Item key="No" text="Three wheeler" />
+							<core:Item key="No" text="Four wheeler" />
+						</ComboBox>
+					
+					</f:content>
+				</f:SimpleForm>
+			</l:content>
+		</l:Grid>
+		<buttons>
+			<Button text="Assign" press="handleAssignBtnPress" type="Emphasized" />
+			<Button text="Cancel" press="handlecloseDialog" type="Emphasized" />
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

@@ -1,0 +1,100 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form"
+	controllerName="LogisticMGMSystems.controller.Dispatcher" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Dispatcher Plan" showNavButton="true" navButtonPress="onNavBack">
+		<content>
+			<SplitApp id="SplitAppDemo" initialDetail="detail"
+				initialMaster="master">
+				<detailPages>
+					<Page id="detail" title="Plan Items" backgroundDesign="Solid">
+						<l:Grid defaultSpan="L12 M12 S12" width="auto">
+							<l:content>
+								<f:SimpleForm id="SimpleFormDisplay354" minWidth="1024"
+									maxContainerCols="2" editable="false" layout="ResponsiveGridLayout"
+									 labelSpanL="3" labelSpanM="3" emptySpanL="4"
+									emptySpanM="4" columnsL="1" columnsM="1">
+									<f:content>
+										<Label text="Plan No"/>
+										<Text id="idPlanNo"/>
+										<Label text="Vessel"/>
+										<Text id="idVesselNo" />
+										<Label text="Status"/>
+										<Text id="idStatus" />
+									</f:content>
+								</f:SimpleForm>
+							</l:content>
+						</l:Grid>
+						<Table id="oTableItems" mode="MultiSelect" selectionMode="MultiToggle">
+							<headerToolbar>
+								<Toolbar>
+									<Title text="" level="H2" />
+									<ToolbarSpacer />
+									<Button text="Assign" icon = "sap-icon://shipping-status" type="Emphasized"  press="handleAssignPress" />
+								</Toolbar>
+							</headerToolbar>
+							<columns>
+								<Column>
+									<header>
+										<Text text="Image" />
+									</header>
+								</Column>
+								<Column>
+									<header>
+										<Text text="Plan No" />
+									</header>
+								</Column>
+								<Column>
+									<header>
+										<Text text="Vessel" />
+									</header>
+								</Column>
+								<Column>
+									<header>
+										<Text text="Quantity" />
+									</header>
+								</Column>
+								<Column>
+									<header>
+										<Text text="Status" />
+									</header>
+								</Column>
+								<Column>
+									<header>
+										<Text text="Driver" />
+									</header>
+								</Column>
+								<Column>
+									<header>
+										<Text text="Vehicle" />
+									</header>
+								</Column>
+							
+							</columns>
+							<!-- <items> <ColumnListItem> <cells> <Text text="990011" /> <Text 
+								text="1" /> <Text text="Save" /> <Text text="100" /> <Text text="100000100" 
+								/> <Text text="Casing Pipe for Testing" /> <Text text="0" /> <Button icon="sap-icon://notification-2" 
+								press="_onValueHelpRequest"/> <Button icon="sap-icon://map" press="_onLocateAll" 
+								/> <Button icon="sap-icon://notes"/> </cells> </ColumnListItem> </items> -->
+						</Table>
+					</Page>
+
+				</detailPages>
+				<masterPages>
+					<Page id="master" title="Plans" backgroundDesign="List">
+						<List id="oList" mode="SingleSelectMaster" select="onListSelect"
+							type="Activate" items="{Pland>/PlanData}">
+							<items>
+								<ObjectListItem press="onSelect" title="{Pland>PlanNo}"
+									number="{Pland>Vessel}">
+									<ObjectAttribute text="{Pland>Date}" />
+									<ObjectAttribute text="{Pland>Time}" />
+									<ObjectAttribute text="{Pland>Status}" id="idHStatus"  />
+								</ObjectListItem>
+							</items>
+						</List>
+					</Page>
+				</masterPages>
+			</SplitApp>
+		</content>
+	</Page>
+</core:View>
